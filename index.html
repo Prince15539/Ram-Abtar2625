@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRINCE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <head>
+    <meta charset="UTF-8">
+    <title>PRINCE</title>
+
+    <!-- CSS CONNECT -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <span class="logo-text">PRINCE</span>
+        </a>
+        
+        <nav class="navbar" id="navbar">
+            <a href="#home" onclick="closeMobileMenu()">Home</a>
+            <a href="#about" onclick="closeMobileMenu()">About</a>
+            <a href="#skills" onclick="closeMobileMenu()">Skills</a>
+            <a href="#projects" onclick="closeMobileMenu()">Projects</a>
+            <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+        </nav>
+        
+        <div class="theme-toggle" onclick="toggleTheme()">
+            <i class="fas fa-moon" id="theme-icon"></i>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1 class="animated-name">
+                <span class="letter">R</span>
+                <span class="letter">A</span>
+                <span class="letter">M</span>
+                <span class="letter">A</span>
+                <span class="letter">B</span>
+                <span class="letter">T</span>
+                <span class="letter">A</span>
+                <span class="letter">R</span>
+                <span class="space"></span>
+                <span class="letter">M</span>
+                <span class="letter">A</span>
+                <span class="letter">N</span>
+                <span class="letter">D</span>
+                <span class="letter">L</span>
+               
+            </h1>
+            <h3>And I'm a <span class="typing-text">Full Stack Developer</span></h3>
+            <p>I'm a passionate full stack developer with expertise in both frontend and backend technologies. 
+               <br>As a dedicated developer, I create end-to-end web solutions and love building amazing digital experiences.</p>
+            
+            <div class="home-sci">
+                <a href="https://www.facebook.com/sadlyrkm.baishak" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/ramavtar7827/" aria-label = "instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="X"><i class="fa-solid fa-x"></i></a>
+                <a href="https://www.linkedin.com/in/ramabtar-mandal-87b1ab358/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="" aria-label="whatapp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@prince_mandal15?lang=en" aria-label="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+
+            </div>
+            
+            <a href="#contact" class="btn">Reach Me</a>
+        </div>
+        
+        <div class="home-img">
+            <div class="img-container">
+                <div class="lighting-effect"></div>
+                <img src="photo.jpg" alt="Ram Abtar Mandal - Full Stack Developer">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>I am a dedicated and enthusiastic full stack developer with expertise in both frontend and backend technologies. 
+               I specialize in creating complete web applications from database design to user interface implementation. 
+               My passion lies in building scalable, efficient, and user-friendly digital solutions.</p>
+            
+            <div class="about-info">
+                <div class="info-item">
+                    <span class="info-label">Name:</span>
+                    <span class="info-value">Ram Abtar Mandal</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Email:</span>
+                    <span class="info-value">mandalramabtar@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Phone:</span>
+                    <span class="info-value">9805176795</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Location:</span>
+                    <span class="info-value">Kathmandu, Nepal</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Specialization:</span>
+                    <span class="info-value">Full Stack Development</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <!-- Frontend Skills -->
+            <div class="skill-category">
+                <h3 class="category-title">Frontend Development</h3>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <i class="fab fa-html5 skill-icon html-icon"></i>
+                            <span class="skill-name">HTML5</span>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <i class="fab fa-css3-alt skill-icon css-icon"></i>
+                            <span class="skill-name">CSS3</span>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <i class="fab fa-js-square skill-icon js-icon"></i>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <i class="fab fa-react skill-icon react-icon"></i>
+                            <span class="skill-name">React</span>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="skill-category">
+                <h3 class="category-title">Backend Development</h3>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <i class="fab fa-php skill-icon php-icon"></i>
+                            <span class="skill-name">PHP</span>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <i class="fab fa-python skill-icon python-icon"></i>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <span class="skill-percentage">45%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="45%"></div>
+                    </div>
+                </div>
+                
+                   <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <i class="fa-brands fa-java"></i>
+                            <span class="skill-name">Object Oriented Programming in java</span>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+
+                   <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <i class="fa-brands fa-java"></i>
+                            <span class="skill-name">MYSQL</span>
+                        </div>
+                        <span class="skill-percentage">99%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="99%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <i class="fas fa-code skill-icon c-icon"></i>
+                            <span class="skill-name">C Programming</span>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>mandalramabtar@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>9805176795</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Kathmandu, Nepal</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="number" placeholder="Your Mobile number." required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" onclick="sendMail()" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Ram Abtar Mandal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
